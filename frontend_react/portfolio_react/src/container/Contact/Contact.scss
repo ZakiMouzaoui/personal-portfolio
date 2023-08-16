@@ -1,0 +1,97 @@
+#contact {
+  min-height: 100vh;
+}
+
+.app__contact {
+  flex: 1;
+  //   background-color: var(--white-color) !important;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
+
+  .app__contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    width: 30%;
+
+    @media screen and (max-width: 1200px) {
+      width: 40%;
+    }
+
+    @media screen and (max-width: 900px) {
+      width: 55%;
+    }
+
+    @media screen and (max-width: 600px) {
+      width: 75%;
+    }
+
+    .gmail-info {
+      background-color: #fef3f5;
+      padding: 1rem;
+      border-radius: 8px;
+      //   width: 45%;
+      p {
+        text-align: center;
+      }
+    }
+
+    .phone-info {
+      background-color: #f3f6fb;
+      padding: 1rem;
+      border-radius: 8px;
+      //   width: 45%;
+
+      p {
+        text-align: center;
+      }
+    }
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    width: 70%;
+
+    @media screen and (max-width: 900px) {
+      width: 80%;
+    }
+
+    @media screen and (max-width: 600px) {
+      width: 90%;
+    }
+
+    input,
+    textarea {
+      padding: 0.8rem 1rem;
+      margin-bottom: 1rem;
+      border: none;
+      background-color: var(--primary-color);
+      width: 100%;
+      border-radius: 5px;
+
+      &:focus {
+        outline: 1px solid var(--secondary-color);
+      }
+    }
+
+    button {
+      border: none;
+      border-radius: 15px;
+      background-color: var(--secondary-color);
+      color: white;
+      padding: 1rem;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #2b2e81;
+      }
+    }
+  }
+}

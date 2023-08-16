@@ -1,0 +1,49 @@
+#skills {
+  min-height: 100vh;
+}
+
+.app__skills {
+  height: 100%;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  align-content: center;
+
+  .app__skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem;
+  }
+
+  .app__skill-img {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(144, 109, 109);
+    margin: 1rem 2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 60%;
+      height: 60%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+
+  //   @media screen and (max-width: 1200px) {
+  //     width: 70%;
+  //   }
+
+  @media screen and (max-width: 900px) {
+    width: 70%;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
+}
