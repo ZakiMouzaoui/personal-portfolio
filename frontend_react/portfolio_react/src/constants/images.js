@@ -21,6 +21,8 @@ import express from "../assets/express.png";
 import django from "../assets/django-logo.png";
 import laravel from "../assets/laravel.png";
 import tensorflow from "../assets/tensorflow.png";
+import next from "../assets/next.svg";
+import mongo from "../assets/mongo.png";
 
 import about01 from "../assets/about01.png";
 import about02 from "../assets/about02.png";
@@ -70,6 +72,8 @@ export default {
   laravel,
   express,
   tensorflow,
+  next,
+  mongo,
   about01,
   about02,
   about03,

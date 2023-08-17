@@ -12,7 +12,7 @@ function Skills() {
       bgColor: "#b3e5fc",
     },
     {
-      name: "React Js",
+      name: "React JS",
       img: images.react,
       bgColor: "#cce6e4",
     },
@@ -22,9 +22,9 @@ function Skills() {
       bgColor: "#c4abd6",
     },
     {
-      name: "Typescript",
-      img: images.typescript,
-      bgColor: "#3d5aff",
+      name: "Next JS",
+      img: images.next,
+      bgColor: "#b0b0ab",
     },
     {
       name: "HTML5",
