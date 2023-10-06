@@ -27,7 +27,7 @@ function Work() {
       description:
         "A responsive reddit clone app using firebase, react js, chakra ui and redux",
       imgUrl: images.work2,
-      github: "",
+      github: "https://github.com/ZakiMouzaoui/reddit_clone",
     },
     {
       name: "Charitable works",
